@@ -1,0 +1,61 @@
+
+==============================================
+START : FUNC_BUILD_KERNEL
+==============================================
+
+build project=k
+build common config=msm8916_sec_defconfig 
+build variant config=msm8916_sec___defconfig 
+build secure option= 
+build SEANDROID option= 
+[33m
+Help
+/mnt/AndroidData/los17-o7prolte/lineage/kernel/samsung/msm8916/build_msm8916_kernel.sh $1 $2 $3
+  $1 : 
+	for A3ULTE_EUR_OPEN use a3u_eur
+	for A5ULTE_EUR_OPEN use a5u_eur
+	for E5LTE_EUR_OPEN use e5_eur
+	for E53G_EUR_OPEN use e53g_eur
+	for E7LTE_EUR_OPEN use e7_eur
+	for E7LTE_CHNOPEN use e7_chn_open
+	for E7LTE_CTC use e7_ctc
+	for E73G_SEA_OPEN use e73g_sea
+	for GT58LTE_EUR_OPEN use gt58lte_eur
+	for GT58LTE_SEA_XSA use gt58lte_aus
+	for GT58LTE_USA_VZW use gt58lte_vzw
+	for GT58LTE_USA_TMO use gt58lte_tmo
+	for GT58WIFI_EUR_OPEN use gt58wifi_eur
+	for GT510LTE_EUR_OPEN use gt510lte_eur
+	for GT510LTE_USA_VZW use gt510lte_vzw
+	for GT510LTE_CHN_OPEN use gt510lte_chnopen
+	for GT510WIFI_EUR_OPEN use gt510wifi_eur
+	for GT5NOTE8LTE_EUR_OPEN use gt5note8lte_eur
+	for GT5NOTE8WIFI_EUR_OPEN use gt5note8wifi_eur
+	for GT5NOTE10LTE_EUR_OPEN use gt5note10lte_eur
+	for GT5NOTE10LTE_CHN_OPEN use gt5note10lte_chn
+	for GT5NOTE103G_EUR_OPEN use gt5note103g_eur
+	for GT5NOTE103G_EUR_OPEN use gt5note10wifi_eur
+	for SIGNUMLTE_EUR_OPEN use signumlte_eur
+	for FORTUNA_USA_TFN use fortuna_tfn
+	for FORTUNA_USA_USC use fortuna_usc
+	for FORTUNA_USA_TMO use fortuna_tmo
+	for FORTUNA_USA_SPR use fortuna_spr
+	for ROSSA_USA_TMO use rossa_tmo
+	for XCOVER3_JPN_DCM use xcover3_dcm
+	for J1QLTE_USA_VZW use j1_vzw
+	for J3LTE_CHN_CTC use j3lte_chnctc
+	for J3LTE_CHN_TW use j3lte_tw
+	for J3LTE_USA_SPR use j3lte_spr
+	for J3LTE_USA_VZW use j3lte_vzw
+	for J3LTE_USA_VZW use j3lte_usc
+	for J1XQLTE_USA_VZW use j1xqlte_spr
+	for GTESLTE_USA_SPR use gtes_spr
+	for GTESLTE_USA_USC use gtes_usc
+	for O7LTE_SWA_OPEN use o7lte_swaopen
+	for J5XLTE_EUR_OPEN use j5xlte_eur
+	for J5LTE_EUR use j5lte_eur
+  $2 : 
+	-B or Nothing  (-B : Secure Binary)
+  $3 : 
+	-E or Nothing  (-E : SEANDROID Binary)
+[0m
